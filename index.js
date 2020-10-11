@@ -22,7 +22,7 @@ async function handleRequest(request) {
   <head>
     ${title ? `<meta property="og:title" content="${title}">` : ''}
     <meta property="theme-color" content="#${color}">
-    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png">
+    <meta content="https://img.rauf.wtf/1x1_original_fdhufkgdyfgsdjfs.png" property="og:image">
     ${author ? `<link type="application/json+oembed" href="https://embed.almeidx.workers.dev/oembed?author=${author}">` : ''}
   </head>
   <body>
