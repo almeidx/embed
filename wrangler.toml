@@ -1,0 +1,6 @@
+name = "embed"
+type = "webpack"
+account_id = "c4679be27f813b0665fb140d255f1850"
+workers_dev = true
+route = ""
+zone_id = ""
