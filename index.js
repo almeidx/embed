@@ -19,16 +19,16 @@ async function handleRequest(request) {
   return new Response(
     `<!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
-  <head>
-    ${title ? `<meta property="og:title" content="${title}">` : ''}
-    <meta property="theme-color" content="#${color}">
-    <meta content="https://img.rauf.wtf/1x1_original_fdhufkgdyfgsdjfs.png" property="og:image">
-    ${author ? `<link type="application/json+oembed" href="https://embed.almeidx.workers.dev/oembed?author=${author}">` : ''}
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>This worker was made by <a href="https://github.com/almeidx">Almeida</a>.</p>
-  </body>
+<head>
+  ${title ? `<meta property="og:title" content="${title}">` : ''}
+  <meta property="theme-color" content="#${color}">
+  <meta content="https://img.rauf.wtf/1x1_original_fdhufkgdyfgsdjfs.png" property="og:image">
+  ${author ? `<link type="application/json+oembed" href="https://embed.almeidx.workers.dev/oembed?author=${author}">` : ''}
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>This worker was made by <a href="https://github.com/almeidx">Almeida</a>.</p>
+</body>
 </html>`, {
     headers: {
       'content-type': 'text/html;charset=UTF-8',
