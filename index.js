@@ -17,8 +17,7 @@ async function handleRequest(request) {
   const color = searchParams.get('color');
 
   return new Response(
-    `
-<!DOCTYPE html>
+    `<!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
   <head>
     ${title ? `<meta property="og:title" content="${title}">` : ''}

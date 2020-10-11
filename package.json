@@ -1,6 +1,7 @@
 {
   "name": "embed",
   "version": "1.0.0",
+  "description": "Cloudflare Worker for sending embeds on Discord",
   "author": "almeidx <almeidx@pm.me> (https://almeidx.me)",
   "main": "index.js",
   "license": "MIT"
